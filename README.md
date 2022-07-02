@@ -6,9 +6,9 @@ C:\Users\User\AppData\Local\ov\pkg
 
 Replace User with your Windows user account name.
 
-I had to include a few code changes that felt like hacks, because some of the directory 
+I had to include a few code changes that felt like hacks, because some of the directory names had special names like Blender-3.1.0.usd.100.1.10 or Machinima-2021.2.1-rel.1. I do not have every connector or old version of apps installed, so I am sure there are special cases I missed. Let me know the folder names here and I can try and fix it.
 
-Below is a screen shot of my machine before running OV Cleaner.
+Below is a screen shot of my machine before running OV Cleaner. Create alone had about 6 gigs of old versions on my machine.
 
 <img src=https://github.com/DataJuggler/SharedRepo/blob/master/Shared/Images/InstalledOVApps.png>
 
