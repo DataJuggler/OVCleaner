@@ -4,7 +4,7 @@ NVidia Omniverse Kit apps when they install newer versions, leave behind the old
 Specifically, this app reads the folders in the directory:
 C:\Users\[User]\AppData\Local\ov\pkg
 
-Replace [User] is your Windows user account name.
+Replace User with your Windows user account name.
 
 I had to include a few code changes that felt like hacks, because some of the directory 
 
