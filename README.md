@@ -1,12 +1,12 @@
 # OVCleaner
 NVidia Omniverse Kit apps when they install newer versions, leave behind the old versions. This is a Windows Form .NET 6 app designed to discover and delete the old versions.
 
-* Specifically, this app reads the folders in the directory:
+Specifically, this app reads the folders in the directory:
 C:\Users\User\AppData\Local\ov\pkg
 
 Replace User with your Windows user account name.
 
-* Users may have installed to different directories, so if you chose a custom folder then you must browse for that folder before clicking the Discover button.
+Note: Users may have installed to different directories, so if you chose a custom install location then you must browse for that folder before clicking the Discover button.
 
 I had to include a few code changes that felt like hacks, because some of the directory names had special names like Blender-3.1.0.usd.100.1.10 or Machinima-2021.2.1-rel.1. I do not have every connector or old version of apps installed, so I am sure there are special cases I missed. Let me know the folder names here and I can try and fix it.
 
