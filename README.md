@@ -18,9 +18,7 @@ And here is a screen shot of after:
 
 <img src=https://github.com/DataJuggler/SharedRepo/blob/master/Shared/Images/CleanedOVFolder.png>
 
-The deps folder is skipped when OV Cleaner when the Discover button is clicked.
-The deps folder on my machine is 55 gig, and I do not have any way of knowing what if any of these folders are out of date.
-Many of the folders in deps directory has a kit.exe, and each copy says the last accessed date is today in Windows Properties, so I leaving this folder alone.
+The deps folder is skipped when the Discover button is clicked. The deps folder on my machine is 55 gig, and I do not have any way of knowing what if any of these folders are out of date. Many of the folders in deps directory have a kit.exe, and each copy says the last accessed date is today in Windows Properties, so I leaving this folder alone.
 
 I estimate I cleaned about 9 - 15 gig from my machine. I had to run this a few times as I debugged the app and I can only test once.
 
@@ -28,7 +26,7 @@ To Install / Run:
 
 Installed Version:
 
-Install the release version of OV Cleaner. There should be a desktop icon installed on your desktop. Double click OV Cleaner Icon to run (The Wolf *).
+Install the release version of OV Cleaner. There should be a desktop icon installed on your desktop after installation. Double click OV Cleaner Icon to run (The Wolf ). The Release Version download is on the right hand side of this page.
 
 Visual Studio 2022
 You must have Windows Desktop Apps installed to run, or you will have to modify Visual Studio configuration.
