@@ -2,7 +2,7 @@
 NVidia Omniverse Kit apps when they install newer versions, leave behind the old versions. This is a Windows Form .NET 6 app designed to discover and delete the old versions.
 
 Specifically, this app reads the folders in the directory:
-C:\Users\[User]\AppData\Local\ov\pkg
+C:\Users\User\AppData\Local\ov\pkg
 
 Replace User with your Windows user account name.
 
