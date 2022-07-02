@@ -6,6 +6,8 @@
     <Nullable>disable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <Version>1.0.0</Version>
+    <Description>OV Cleaner removes old version of Kit Apps installed</Description>
   </PropertyGroup>
 
   <ItemGroup>

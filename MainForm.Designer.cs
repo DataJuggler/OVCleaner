@@ -37,6 +37,7 @@
             this.AppsLabel = new System.Windows.Forms.Label();
             this.DiscoverButton = new DataJuggler.Win.Controls.Button();
             this.ReclaimStatus = new DataJuggler.Win.Controls.LabelLabelControl();
+            this.InfoLabel2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // OVFolderControl
@@ -149,8 +150,8 @@
             this.ReclaimStatus.ForeColor = System.Drawing.Color.LemonChiffon;
             this.ReclaimStatus.LabelColor = System.Drawing.Color.LemonChiffon;
             this.ReclaimStatus.LabelFont = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.ReclaimStatus.LabelText = "Reclaim:";
-            this.ReclaimStatus.LabelWidth = 90;
+            this.ReclaimStatus.LabelText = "* Reclaim:";
+            this.ReclaimStatus.LabelWidth = 112;
             this.ReclaimStatus.Location = new System.Drawing.Point(627, 166);
             this.ReclaimStatus.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.ReclaimStatus.Name = "ReclaimStatus";
@@ -159,11 +160,22 @@
             this.ReclaimStatus.ValueLabelColor = System.Drawing.Color.LemonChiffon;
             this.ReclaimStatus.ValueLabelFont = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             // 
+            // InfoLabel2
+            // 
+            this.InfoLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.InfoLabel2.ForeColor = System.Drawing.Color.LemonChiffon;
+            this.InfoLabel2.Location = new System.Drawing.Point(641, 215);
+            this.InfoLabel2.Name = "InfoLabel2";
+            this.InfoLabel2.Size = new System.Drawing.Size(305, 67);
+            this.InfoLabel2.TabIndex = 8;
+            this.InfoLabel2.Text = "* This number is an estimate. The actual number is probably a little higher.\r\n";
+            // 
             // MainForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackgroundImage = global::OVCleaner.Properties.Resources.BlackImage;
             this.ClientSize = new System.Drawing.Size(1015, 598);
+            this.Controls.Add(this.InfoLabel2);
             this.Controls.Add(this.ReclaimStatus);
             this.Controls.Add(this.DiscoverButton);
             this.Controls.Add(this.AppsLabel);
@@ -177,7 +189,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "OV Cleaner";
+            this.Text = "OV Cleaner 1.0.0";
             this.ResumeLayout(false);
 
         }
@@ -192,5 +204,6 @@
         private Label AppsLabel;
         private DataJuggler.Win.Controls.Button DiscoverButton;
         private LabelLabelControl ReclaimStatus;
+        private Label InfoLabel2;
     }
 }
