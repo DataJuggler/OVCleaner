@@ -1,5 +1,5 @@
 # OVCleaner
-NVidia Omniverse Kit apps when they install newer versions, leave behind the old versions. This is a Windows Form .NET 6 app to delete the old versions.
+NVidia Omniverse Kit apps when they install newer versions, leave behind the old versions. This is a Windows Form .NET 6 app designed to discover and delete the old versions.
 
 Specifically, this app reads the folders in the directory:
 
